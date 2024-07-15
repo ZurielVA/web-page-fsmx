@@ -1,0 +1,163 @@
+@media screen and (max-width: 320px) {
+    .text__button {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container__mybranch-pharmacy {
+        flex-direction: column !important;
+        padding: 0 3rem !important;
+        width: 100% !important;
+        gap: 4rem !important;
+        padding: 0 4.5rem !important;
+    }
+
+    .container__mybranch__pharmacy-business,
+    .container__mybranch__pharmacy-fashion,
+    .container__mybranch__pharmacy-need {
+        width: 100% !important;
+    }
+
+    .mybranch__title {
+        padding: 3rem;
+    }
+
+    .mybranch__title-text {
+        font-size: 4.5rem;
+    }
+
+    .button-information {
+        padding: 1.5rem 4rem;
+        font-size: 2.4rem;
+    }
+
+    .scale-description-mybranch {
+        font-size: 2rem;
+        padding: 0 3rem;
+        vertical-align: baseline;
+    }
+
+    .mybranch__title-secondtitle {
+        font-size: 2.8rem;
+        padding: 4rem 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .container__mybranch-pharmacy p {
+        font-size: 2rem;
+    }
+
+    .mybranch__titletwo {
+        margin: initial;
+        padding: 5rem 1rem 4rem;
+    }
+
+    .mybranch__titletwo-title {
+        font-size: 24px;
+    }
+
+    .container__mybranch-models {
+        padding: 1rem 4rem;
+    }
+
+    .mybranch-position {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .mb-position-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .models-title {
+        font-size: 3rem;
+    }
+
+    .models-description {
+        font-size: 1.8rem;
+
+    }
+
+    .model-list {
+        padding-left: 25px;
+    }
+
+    .models-texts p {
+        width: inherit;
+    }
+
+    .models__pharma-figure {
+        width: 100% !important;
+    }
+
+    .models-scale {
+        padding-left: 20px;
+    }
+
+    .models-title,
+    .models-position,
+    .models-includes {
+        text-align: center;
+    }
+
+    .container__mybranch-models-super {
+        margin: 4rem 0;
+    }
+
+    .container__button-information {
+        padding: 4rem 0;
+        margin: 1rem 0;
+    }
+
+    .any-question p {
+        font-size: 3.2rem;
+    }
+
+    .ultimate_information {
+        padding: 4rem;
+    }
+
+    .ultimate_information p {
+        font-size: 16px;
+    }
+
+
+    .btn-neon {
+        padding: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container__mybranch-pharmacy {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .mybranch-position {
+        flex-direction: column;
+    }
+
+    .mb-position-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .container__mybranch-models {
+        padding: 1rem;
+    }
+
+    .models__pharma-figure {
+        width: 70%;
+    }
+
+    .container__mybranch__pharmacy-business,
+    .container__mybranch__pharmacy-fashion,
+    .container__mybranch__pharmacy-need {
+        width: 35%;
+    }
+}

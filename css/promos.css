@@ -1,0 +1,54 @@
+@media screen and (max-width: 870px) {
+    .promos {
+        padding: 0;
+    }
+
+    .promos__title {
+        padding: 5rem 0 4rem;
+    }
+
+    .promos__title-text {
+        font-size: 4.5rem;
+    }
+
+    .swiperPromos {
+        padding: 0 0 9rem!important;
+    }
+
+    .size_promo {
+        margin: 0 1.2rem!important;
+    }
+
+    .promos-content {
+        width: 70%!important;
+    }
+
+    .size_promo {
+        top: 40%;
+        margin: 0 1.2rem;
+    }
+
+    .size_promo::after {
+        font-size: 4rem;
+    }
+
+    .promos-content img:hover {
+        transform: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .swiperPromos{
+        padding: 0;
+    }
+
+    .size_promo {
+        margin: 0 2rem;
+    }
+
+    .promos-content {
+        width: 45%;
+    }
+}

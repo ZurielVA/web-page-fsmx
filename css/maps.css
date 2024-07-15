@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px){
+    .visit__container-iframe{
+        display: block!important;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .visit__title-text{
+        font-size: 5.5rem;
+    }
+
+    .visit__description{
+        padding: 1.3rem 0 0 0;
+    }
+
+    .visit__description-text{
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+
+    .tittle__maps {
+        font-size: 2.6rem;
+    }
+
+    .visit__new{
+       padding: 3rem; 
+    }
+
+    .visit__new-text{
+        font-size: 2.4rem;
+    }
+
+    .visit__container-iframe iframe{
+        padding: 1rem 0 3rem 0;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .visit__container-iframe{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>FarmaSúper.mx | El que busca encuentra | Farmacia - Venta de medicamentos, abarrotes y más </title>
+    <link rel="icon" type="image/svg" href="./assets/images/secondlogo_farmasuper.webp"/>
+    <meta name="description"
+        content="FarmaSúper.mx, &quot;El que busca encuentra&quot; Venta de medicamentos, abarrotes y más. Conoce nuestras sucurales en donde encontraras súper precios y promociones.">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat+Alternates:wght@100;200;300;400;500;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Didact+Gothic&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de6c1a1274.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/usfarmas.css">
+    <link rel="stylesheet" href="./css/his.css">
+    <link rel="stylesheet" href="./css/promos.css">
+    <link rel="stylesheet" href="./css/maps.css">
+    <link rel="stylesheet" href="./css/mybranch.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <nav class="navbar__scroll" id="navbarScroll">
+            <div class="navbar__logo">
+                <a href="#start">
+                    <img class="logo__desktop circule" src="./assets/images/logo_farmasuper.webp" width="1080px" height="100px" sizes="(max-width: 1080px)" alt="Logo de FarmaSúper.mx" loading="eager">
+                    <img class="logo__mobile circule" src="./assets/images/logo_farmasuper_small.webp"
+                        alt="Logo de FarmaSúper.mx" loading="eager">
+                </a>
+            </div>
+            <div class="navbar__text__mobile">
+                <p>FarmaSúper.mx</p>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars" id="iconMenu"></i><i class="fa-solid fa-xmark" id="iconClose"></i></div>
+            <ul class="navbar__items" id="menu">
+                <li><a href="#start" class="navbar__item">Inicio<span></span></a></li>
+                <li><a href="#about" class="navbar__item">Nosotros<span></span></a></li>
+                <li><a href="#history" class="navbar__item">Historia<span></span></a></li>
+                <li><a href="#visit" class="navbar__item">Visítanos<span></span></a></li>
+                <li><a href="#promos" class="navbar__item">Promociones<span></span></a></li>
+                <li><a href="#mybranch" class="navbar__item">Mi sucursal<span></span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="start" class="hero control-sections">
+        <div class="hero__content display-table">
+            <div class="table-cell">
+                <div class="container__hero">
+                    <div class="welcome top hero__title">
+                        <h1 class="hero__title-welcome">Bienvenido a <br /> FarmaSúper.mx</h1>
+                        <h1 id="title_scaleW">Bienvenido a <br /> FarmaSúper.mx</h1>
+                        <div class="container__description__welcome">
+                            <p class="hero__title__welcome-description">En Farmasúper el que busca encuentra, venta de
+                                medicamentos,
+                                abarrotes y más...</p>
+                            <p id="description_scaleW">En Farmasúper el que busca encuentra, venta de
+                                medicamentos,
+                                abarrotes y más...</p>
+                        </div>
+                    </div>
+                    <div class="welcome scale__hero-image">
+                        <div class="hero__image max-img animation-hero">
+                            <img src="./assets/images/second_hero.webp" width="811px" height="500px" alt="Bienvenido a FarmaSúper.mx" loading="eager">
+                        </div>
+                    </div>
+                    <p class="btdown">
+                        <a class="arrow-down" href="#about" role="button">
+                            <span class="fa-solid fa-arrow-down"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="us control-sections">
+        <div class="us__vectors-container">
+            <div class="us__vector1 pos">
+                <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="100%" height="154px" viewBox="0 0 167 154"
+                    fill="none">
+                    <path d="M0 129C44.7545 120.726 136.211 83.543 144 1" stroke="black" />
+                    <path d="M0 153C51.5919 143.175 157.021 99.0198 166 1" stroke="black" />
+                </svg>
+            </div>
+            <div class="us__vector2  pos">
+                <svg class="scale" cxmlns="http://www.w3.org/2000/svg" width="100%" height="154" viewBox="0 0 167 154"
+                    fill="none">
+                    <path d="M167 25C122.246 33.2738 30.7893 70.457 23 153" stroke="black" />
+                    <path d="M167 0.999996C115.408 10.8251 9.97935 54.9802 0.999993 153" stroke="black" />
+                </svg>
+            </div>
+        </div>
+        <div class="container__us">
+            <div class="container__us-titles title-us">
+                <p class="container__us-title-titleus">Nosotros</p>
+            </div>
+            <div class="container__us-texts">
+                <p class="container__us-texts-p">Somos <span class="remarked">Farma</span><span
+                        class="remarked-two">Súper.mx</span>, una destacada
+                    farmacia
+                    comprometida con la
+                    comercialización de productos farmacéuticos, abarrotes y mucho más. Nos enorgullece ofrecer a
+                    nuestros clientes los más altos estándares de calidad en todos nuestros productos, garantizando
+                    su
+                    eficacia y seguridad.</p>
+                <figure class="container__us-image">
+                    <img src="./assets/images/team_farmasuper_us.webp" width="1600px" height="900px"alt="Equipo FarmaSúper.mx" loading="lazy">
+                </figure>
+            </div>
+            <div class="container__us-Mis">
+                <p class="container__us-titles">Misión</p>
+                <p class="container__us-texts-p">Satisfacer las necesidades de SALUD y ABARROTES de nuestros
+                    clientes,
+                    con los
+                    mas altos estándares de calidad a precios justos.</p>
+            </div>
+            <div class="container__us-Vis">
+                <p class="container__us-titles">Visión</p>
+                <p class="container__us-texts-p">Ser identificados como una opción de CALIDAD Y CONFIANZA en el ramo
+                    Farmacéutico, por medio de nuestros procesos de venta y valores en cada una de nuestras
+                    sucursales,
+                    teniendo como resultado la apertura de 100 sucursales para el 2030.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="history" class="his control-sections bg-color">
+        <div class="his__title title-sections">
+            <p class="title__his">La historia de <span class="remarked">Farma</span><span
+                    class="remarked-two">Súper.mx</span></p>
+        </div>
+        <div class="container-swiper">
+            <div class="swiper mySwiper dimension-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/pict_2021.webp" width="1200px" height="900px" alt="En 2021 nace la idea de crear nuestra súper farmacia, conocida como FarmaSúper.mx" loading="lazy">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">2021</p>
+                                    <p>Nace FARMASÚPER.MX, modelo de negocio que ofrece medicamentos y abarrotes esenciales en un solo lugar, tras la pandemia.
+                                    Presente en Hidalgo, Puebla y CDMX.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/feb_2021.webp" loading="lazy" width="1200px" height="900px" alt="En Febrero de 2021 se abre una nueva sucursal en San Martín de las Pirámides, Estado de México,
+                                        siendo una de las primeras sucursales de
+                                        nuestra súper familia.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Febrero de 2021</p>
+                                    <p>Se abre una nueva sucursal en San Martín de las Pirámides, Estado de México,
+                                        siendo una de las primeras sucursales de
+                                        nuestra súper familia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/farmasupermx_logo.webp" width="1200px" height="900px" loading="lazy" alt="En 2022 logramos obtener el registro de la marca, siendo FarmaSúper.mx">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">2022</p>
+                                    <p>Logramos obtener el registro de la marca, siendo "FarmaSúper.mx".</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/mar_2022.webp" width="1200px" height="900px" loading="lazy" alt="En marzo de 2022, logramos aperturar nuestra segunda sucursal en Huauchinango, Puebla.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Marzo de 2022</p>
+                                    <p>Logramos aperturar nuestra segunda sucursal en Huauchinango, Puebla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/agos_2022.webp" width="1200px" height="900px" loading="lazy" alt="En agosto de 2022 Con gran éxito, inauguramos una nueva sucursal más en Forjadores, Mineral de la
+                                        Reforma, Hidalgo.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Agosto de 2022</p>
+                                    <p>Con gran éxito, inauguramos una nueva sucursal más en Forjadores, Mineral de la
+                                        Reforma, Hidalgo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/mayo_2023.webp" width="1200px" height="900px" loading="lazy" alt="En mayo de este año, abrimos una nueva sucursal en Tenango de las Flores, Puebla.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">2023</p>
+                                    <p>En mayo, abrimos una nueva sucursal en Tenango de las Flores, Puebla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/today_2023.webp" width="1200px" height="900px" loading="lazy" alt="Actualmente Contamos con 14 sucursales para estar súper cerca de ti cada día.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Actualmente</p>
+                                    <p>Contamos con 14 sucursales para estar súper cerca de ti cada día.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/we_are_farmasupermx.webp" width="1200px" loading="lazy" height="900px" alt="Continuamos confiando y creyendo que Dios seguirá sosteniendo este proyecto. Tú
+                                        puedes formar parte de nuestra súper
+                                        familia.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Somos FarmaSúper.mx</p>
+                                    <p>Continuamos confiando y creyendo que Dios seguirá sosteniendo este proyecto. Tú
+                                        puedes formar parte de nuestra súper
+                                        familia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next size_his "></div>
+                <div class="swiper-button-prev size_his "></div>
+            </div>
+        </div>
+        <div class="container-swiper__scale">
+            <div class="mySwiper__scale">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/pict_2021.webp" width="1200px" height="900px" loading="lazy" alt="En 2021 nace la idea de crear nuestra súper farmacia, conocida como FarmaSúper.mx">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">2021</p>
+                                    <p>Nace FARMASÚPER.MX, modelo de negocio que ofrece medicamentos y abarrotes esenciales en un solo lugar, tras la pandemia.
+                                    Presente en Hidalgo, Puebla y CDMX.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/feb_2021.webp" width="1200px" height="900px" loading="lazy" alt="En Febrero de 2021 se abre una nueva sucursal en San Martín de las Pirámides, Estado de México,
+                                        siendo una de las primeras sucursales de
+                                        nuestra súper familia.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Febrero de 2021</p>
+                                    <p>Se abre una nueva sucursal en San Martín de las Pirámides, Estado de México,
+                                        siendo una
+                                        de las primeras sucursales de
+                                        nuestra súper familia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/farmasupermx_logo.webp" width="1200px" height="900px" loading="lazy" alt="En 2022 logramos obtener el registro de la marca, siendo FarmaSúper.mx">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">2022</p>
+                                    <p>Logramos obtener el registro de la marca, siendo "FarmaSúper.mx".</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/mar_2022.webp" width="1200px" height="900px" loading="lazy" alt="En marzo de 2022, logramos aperturar nuestra segunda sucursal en Huauchinango, Puebla.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Marzo de 2022</p>
+                                    <p>Logramos aperturar nuestra segunda sucursal en Huauchinango, Puebla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/agos_2022.webp" width="1200px" height="900px" loading="lazy" alt="En agosto de 2022 Con gran éxito, inauguramos una nueva sucursal más en Forjadores, Mineral de la
+                                        Reforma, Hidalgo.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Agosto de 2022</p>
+                                    <p>Con gran éxito, inauguramos una nueva sucursal más en Forjadores, Mineral de la
+                                        Reforma,
+                                        Hidalgo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/mayo_2023.webp" width="1200px" height="900px" loading="lazy" alt="En mayo de este año, abrimos una nueva sucursal en Tenango de las Flores, Puebla.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">2023</p>
+                                    <p>En mayo, abrimos una nueva sucursal en Tenango de las Flores, Puebla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/today_2023.webp" width="1200px" height="900px" loading="lazy" alt="Actualmente Contamos con 14 sucursales para estar súper cerca de ti cada día.">
+                                <div class="card-content">
+                                    <p id="card-content__year" class="the__beggining">Actualmente</p>
+                                    <p>Contamos con 14 sucursales para estar súper cerca de ti cada día.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="./assets/images/we_are_farmasupermx.webp" width="1200px" loading="lazy" height="900px" alt="Continuamos confiando y creyendo que Dios seguirá sosteniendo este proyecto. Tú
+                                        puedes
+                                        formar parte de nuestra súper
+                                        familia.">
+                                <div class="card-content">
+                                    <p id="card-content__year" id="scaleB">Somos FarmaSúper.mx</p>
+                                    <p>Continuamos confiando y creyendo que Dios seguirá sosteniendo este proyecto. Tú
+                                        puedes
+                                        formar parte de nuestra súper
+                                        familia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next size_his "></div>
+                <div class="swiper-button-prev size_his "></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="visit" class="visit control-sections">
+        <div class="visit__title title-sections">
+            <p class="visit__title-text">Visítanos</p>
+        </div>
+        <div class="visit__description">
+            <p class="visit__description-text for-descriptions">Estaremos encantados de brindarte un SÚPER servicio</p>
+        </div>
+        <div class="visit__container-iframe">
+            <div class="visit__maps map1">
+                <div class="title__maps">
+                    <p>Pachuca</p>
+                </div>
+                <div class="description__maps">
+                    <p>C.Manuel Gutiérrez 98, Javier Rojo Gómez, 42030 Pachuca de Soto, Hgo.</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.2782050298456!2d-98.7539949!3d20.122437899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xacd1ac3116e58135%3A0xddb98aab5a0bf748!2sFarmaS%C3%BAper%20Rojo%20G%C3%B3mez!5e0!3m2!1ses!2smx!4v1686963278801!5m2!1ses!2smx"
+                    loading="lazy"></iframe>
+
+            </div>
+            <div class="visit__maps map2">
+                <div class="title__maps">
+                    <p>Puebla</p>
+                </div>
+                <div class="description__maps">
+                    <p>Reforma 233, Tlacpac, 73161 Tenango de las Flores, Puebla.</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d234.0195317830083!2d-97.9904673!3d20.2043309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d089f06baa06e9%3A0x4a29b198734d3ce6!2sFarmaS%C3%BAper%20Tenango%20de%20Las%20Flores!5e0!3m2!1ses-419!2smx!4v1686963647329!5m2!1ses-419!2smx"
+                    loading="lazy"></iframe>
+            </div>
+            <div class="visit__maps map3">
+                <div class="title__maps">
+                    <p>CDMX</p>
+                </div>
+                <div class="description__maps">
+                    <p>Av Politécnico Nacional 20, Zona Escolar, Gustavo A. Madero, 07230, CDMX</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7519.978932348247!2d-99.145996!3d19.5420658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f70a986c4d99%3A0xabd1ce835513b1e4!2sFarmaS%C3%BAper%20CDMX!5e0!3m2!1ses-419!2smx!4v1686963757998!5m2!1ses-419!2smx"
+                    loading="lazy"></iframe>
+            </div>
+            <div class="visit__maps map4">
+                <div class="title__maps">
+                    <p>Pachuca</p>
+                </div>
+                <div class="description__maps">
+                    <p>Andrés Manning Valenzuela 157, Forjadores de Pachuca, 42185 Pachuca de Soto, Hgo.</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393.941506126668!2d-98.76342050437115!3d20.05779930627627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a1246a36f3af%3A0x315d259ac377801d!2sFarmaSuper!5e0!3m2!1ses!2smx!4v1691086204039!5m2!1ses!2smx"
+                    loading="lazy"></iframe>
+            </div>
+            <div class="visit__maps map5">
+                <div class="title__maps">
+                    <p>Edoméx</p>
+                </div>
+                <div class="description__maps">
+                    <p>Av. Tuxpan 30, San Martin Centro, 55850 San Martín Centro, Méx.</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.136904011169!2d-98.8335257!3d19.7067947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1c15ddec9fb59%3A0x7f3bb746bd77f8b7!2sFarmaS%C3%BAper%20Pir%C3%A1mides!5e0!3m2!1ses!2smx!4v1686964179884!5m2!1ses!2smx"
+                    loading="lazy"></iframe>
+            </div>
+            <div class="visit__maps map6">
+                <div class="title__maps">
+                    <p>Real del Monte</p>
+                </div>
+                <div class="description__maps">
+                    <p>El Hospital, 42133 Mineral del Monte, Hgo.</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d234.11430723606713!2d-98.6734708!3d20.1411839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1086d2c1ea6d5%3A0x46426f7c8720508a!2sFarma%20Super!5e0!3m2!1ses!2smx!4v1686964242553!5m2!1ses!2smx"
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="visit__new">
+            <p class="visit__new-text">¡Muy pronto nuevas sucursales!</p>
+        </div>
+    </section>
+   
+    <section id="promos" class="promos control-sections bg-color">
+        <div class="promos__vector__container">
+            <div class="promos__vector-down pos">
+                <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="100%" height="169" viewBox="0 0 154 169"
+                    fill="none">
+                    <path d="M127.994 168.2C120.143 123.37 83.8242 31.5667 1.35838 22.9991" stroke="black" />
+                    <path d="M151.993 168.427C142.655 116.744 99.4966 10.9037 1.56591 1.00005" stroke="black" />
+                </svg>
+            </div>
+            <div class="promos__vector-up pos">
+                <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="100%" height="154" viewBox="0 0 153 154"
+                    fill="none">
+                    <path d="M25 1C33.2738 42.0249 70.457 125.86 153 133" stroke="black" />
+                    <path d="M0.999996 1C10.8251 48.2408 54.9802 144.778 153 153" stroke="black" />
+                </svg>
+            </div>
+        </div>
+        <div class="promos__title title-sections">
+            <p class="promos__title-text">Promociones</p>
+        </div>
+        <div class="container__promos">
+            <div class="swiper swiperPromos">
+                <div class="swiper-wrapper container__slide-promos sws_promos">
+                    <div class="swiper-slide">
+                        <figure class="promos-content">
+                            <img class="promos-content__image" src="./assets/images/Promo_barbie.webp" loading="lazy" width="1024px" height="1024px" alt="Promoción 1, súper productos">
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="promos-content">
+                            <img class="promos-content__image" src="./assets/images/Promo_barbie.webp" loading="lazy" width="1024px" height="1024px" alt="Promoción 2, súper productos">
+                        </figure>
+                    </div>
+                </div>
+                <div class="swiper-button-next size_promo"></div>
+                <div class="swiper-button-prev size_promo"></div>
+            </div>
+        </div>
+    </section>
+  
+
+    <div class="split">
+    </div>
+
+    <section id="mybranch" class="mybranch control-sections bg-color">
+        <div class="mybranch__title title-sections">
+            <p class="mybranch__title-text">Mi sucursal</p>
+        </div>
+        <div class="mybranch__title-description for-descriptions scale-description-mybranch">
+            <p>Estamos encantados de presentarte nuestra increíble oferta para adquirir una de nuestras <br> sucursales
+                y
+                formar parte de la
+                familia de Farmasúper.mx</p>
+        </div>
+        <div class="mybranch__title-secondtitle">
+            <p>¿Por qué una Farmacia?</p>
+        </div>
+        <div class="container__mybranch">
+            <div class="container__mybranch-pharmacy">
+                <div class="container__mybranch__pharmacy-need">
+                    <img class="pharmacy__need-img" src="./assets/images/need_suc.webp" width="1280px" height="853px" loading="lazy"
+                        alt="Benefician a la comunidad">
+                    <p class="pharmacy__need-text">Benefician a la comunidad</p>
+                </div>
+                <div class="container__mybranch__pharmacy-fashion">
+                    <img class="pharmacy__fashion-img" src="./assets/images/firstneed_suc.webp" width="1280px" height="853px" loading="lazy" alt="Son de primera necesidad">
+                    <p class="pharmacy__fashion-text">Son de primera necesidad</p>
+                </div>
+                <div class="container__mybranch__pharmacy-business">
+                    <img class="pharmacy__business-img" src="./assets/images/business_suc.webp" width="1280px" height="853px" loading="lazy"
+                        alt="Es un negocio rentable con excelente margen de utilidad" >
+                    <p class="pharmacy__business-text">Es un negocio rentable con excelente margen de utilidad</p>
+                </div>
+            </div>
+        </div>
+        <div class="mybranch__titletwo">
+            <p class="mybranch__titletwo-title">Presentamos nuestros 3 modelos de <span
+                    class="remarked">Farma</span><span class="remarked-two">Súper.mx</span></p>
+        </div>
+
+        <div class="container__mybranch-models">
+            <div class="container__row">
+                <div class="container__mybranch-models-pharma">
+                    <div class="mybranch-pharma mybranch-position">
+                        <figure class="models__pharma-figure container__mybranch-image">
+                            <img class="models__pharma-img" src="./assets/images/model_pharma.webp" width="1024px" height="768px" alt="modelo farma" loading="lazy">
+                        </figure>
+                        <div class="models-texts">
+                            <p class="models-title">Modelo <span class="remarked">Farma</p></span>
+                            <p class="models-description models-position">Está enfocado en el impulso únicamente de
+                                medicamentos
+                                patentes, genéricos y perfumería.</p>
+                            <p class="models-includes">Incluye:</p>
+                            <ul class="model-list models-description">
+                                <li><i class="fa-solid fa-square-check"></i>Adecuación básica de local</li>
+                                <li><i class="fa-solid fa-square-check"></i>Mobiliario</li>
+                                <li><i class="fa-solid fa-square-check"></i>$125,000 de inventario</li>
+                                <li><i class="fa-solid fa-square-check"></i>Carpeta legal</li>
+                                <li><i class="fa-solid fa-square-check"></i>Capacitación a personal (incluye uniformes)
+                                </li>
+                                <li><i class="fa-solid fa-square-check"></i>Imagen corporativa (interna y externa)</li>
+                                <li><i class="fa-solid fa-square-check"></i>Equipo de punto de venta</li>
+                                <li><i class="fa-solid fa-square-check"></i>Evento y obsequios de inauguración</li>
+                            </ul>
+                            <p class="models-warning models-scale">*Se requiere contar con un local con medidas como
+                                mínimo
+                                3mx4m
+                                en
+                                adelante. <br>
+                                *Se puede operar con 2 personas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__mybranch-models-super">
+                <div class="mybranch-super mybranch-position mb-position-reverse">
+                    <div class="models-texts">
+                        <p class="models-title">Modelo <span class="remarked-two">Súper</p></span>
+                        <p class="models-description models-position">Está enfocado en el impulso de medicamentos,
+                            patentes, genéricos, perfumería y un segmento de abarrotes de canasta
+                            básica.</p>
+                        <p class="models-includes">Incluye:</p>
+                        <ul class="model-list models-description">
+                            <li><i class="fa-solid fa-square-check"></i>Adecuación básica de local</li>
+                            <li><i class="fa-solid fa-square-check"></i>Mobiliario</li>
+                            <li><i id="super-icon" class="fa-solid fa-square-plus"></i>$250,000 de inventario</li>
+                            <li><i class="fa-solid fa-square-check"></i>Carpeta legal</li>
+                            <li><i class="fa-solid fa-square-check"></i>Capacitación a personal (incluye uniformes)</li>
+                            <li><i class="fa-solid fa-square-check"></i>Imagen corporativa (interna y externa)</li>
+                            <li><i class="fa-solid fa-square-check"></i>Equipo de punto de venta</li>
+                            <li><i class="fa-solid fa-square-check"></i>Evento y obsequios de inauguración</li>
+                        </ul>
+                        <p class="models-warning models-scale">*Se requiere contar con un local con medidas como mínimo
+                            5mx7m
+                            en
+                            adelante. <br>
+                            *Se puede operar con 2 o 3 personas.</p>
+                    </div>
+                    <figure class="models__pharma-figure">
+                        <img class="models__pharma-img" src="./assets/images/model_super.webp" width="1024px" height="768px" loading="lazy" alt="modelo súper">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="container__mybranch-models-plus">
+                <div class="mybranch-plus mybranch-position">
+                    <figure class="models__pharma-figure">
+                        <img class="models__pharma-img" width="1024px" height="768px" loading="lazy" src="./assets/images/model_plus.webp" alt="modelo plus">
+                    </figure>
+                    <div class="models-texts">
+                        <p class="models-title">Modelo <span class="remarked-plus">Plus</p></span>
+                        <p class="models-description models-position">Es un modelo de autoservicio, generado
+                            a traves de la mezcla de medicamentos
+                            patentes,genericos, perfumeria y
+                            abarrotes en mayor proporción.
+                        </p>
+                        <p class="models-includes">Incluye:</p>
+                        <ul class="model-list models-description">
+                            <li><i class="fa-solid fa-square-check"></i>Adecuación de local</li>
+                            <li><i class="fa-solid fa-square-check"></i>Mobiliario</li>
+                            <li><i id="plus-icon" class="fa-solid fa-square-plus"></i>$500,000 de inventario</li>
+                            <li><i class="fa-solid fa-square-check"></i>Carpeta legal</li>
+                            <li><i class="fa-solid fa-square-check"></i>Capacitación a personal (incluye uniformes)</li>
+                            <li><i class="fa-solid fa-square-check"></i>Imagen corporativa (interna y externa)</li>
+                            <li><i class="fa-solid fa-square-check"></i>Equipo de punto de venta</li>
+                            <li><i class="fa-solid fa-square-check"></i>Evento y obsequios de inauguración</li>
+                        </ul>
+                        <p class="models-warning models-scale">*Se requiere contar con un local con medidas como mínimo
+                            7mx12m
+                            en
+                            adelante. <br>
+                            *Se puede operar con 4 o 6 personas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__button-information">
+            <a href="./assets/files/models_farmasupermx.pdf" class="btn-neon" download>                
+                <span id="bor-top"></span>
+                <span id="bor-bottom"></span>
+                <span id="bor-right"></span>
+                <span id="bor-left"></span>
+                <p class="text__button">Más información</p>
+            </a>
+        </div>
+
+        <div class="any-question">
+            <p>¿Alguna pregunta sobre nuestro modelo de negocios?</p>
+        </div>
+
+        <div class="contacts any-question">
+            <p>Contáctanos</p>
+            <div class="container__contacts">
+                <div class="contacts__whatsapp">
+                    <a class="num__farm-whatsapp"
+                        href="https://wa.me/+5217714465372?text=¡Hola equipo de FarmaSúper.mx! Me gustaría obtener más información acerca de su modelo de negocios. ¿Podrían proporcionarme detalles al respecto, por favor? ¡Gracias!"
+                        target="_blank">
+                        <span class="fa-brands fa-whatsapp"></span>
+                    </a>
+                </div>
+                <div class="contacts__gmail">
+                    <a href="mailto:direccion.farmasuper@gmail.com" target="_blank">
+                        <span class="fa-solid fa-envelope"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ultimate_information for-descriptions">
+            <p>¡Únete a nuestra SÚPER familia y adquiere una valiosa sucursal de farmacia!
+                Te ofrecemos un modelo de negocio probado y rentable que asegurará tu futuro próspero. Nuestras
+                reconocidas farmacias en
+                diferentes partes de México te brindan la oportunidad de convertirte en dueño, con una trayectoria
+                impecable, clientes
+                leales y excelencia en servicio y calidad de productos. ¡No pierdas esta oportunidad única de éxito!</p>
+        </div>
+    </section>
+    
+    <footer class="closing_area">
+        <div class="container__group-one">
+            <div class="group-one-box">
+                <figure>
+                    <a href="#">
+                        <img src="./assets/images/Logo_footer.webp" loading="lazy" width="471px" height="227" alt="Logo para pie de pagina FarmaSúper.mx, gracias por visitarnos en nuestro sitio en linea, esta página fue hecha con amor">
+                    </a>
+                </figure>
+            </div>
+            <div class="group-one-box">
+
+                <ul class="group-one-box__list">
+                    <li><a href="#start">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#history">Historia</a></li>
+                    <li><a href="#visit">Visitanos</a></li>
+                    <li><a href="#promos">Promociones</a></li>
+                    <li><a href="#mybranch">Mi sucursal</a></li>
+                </ul>
+            </div>
+            <div class="group-one-box">
+                <p class="group-one-box__title">Síguenos</p>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/FarmaSuper1" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/farma_super2021/" target="_blank" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="group-down">
+            <small>&copy; 2023 <b>FarmaSúper.mx</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        const swiperHis = new Swiper(".mySwiper__scale", {
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        const swiperPromos = new Swiper(".swiperPromos", {
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script src='./js/navbar.js'></script>
+    <script src="./js/hamb_menu.js"></script>
+</body>
+
+</html>

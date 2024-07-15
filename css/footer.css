@@ -1,0 +1,27 @@
+@media screen and (max-width: 320px){
+    .group-one-box figure img{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .container__group-one {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+        padding-top: 2rem;
+    }
+    .group-one-box{
+        text-align: center;
+    }
+    .group-down{
+        margin-top: 1rem;
+        padding: 1.2rem 0.1rem;
+    }
+
+    .red-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
