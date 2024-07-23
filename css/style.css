@@ -68,7 +68,7 @@ html {
 }
 
 .logo__desktop {
-  width: 10rem;
+  width: 12rem;
 }
 
 .logo__mobile {
@@ -153,8 +153,7 @@ html {
 }
 
 .hero__title__welcome-description {
-  font-size: 2rem;
-  width: 90%;
+  font-size: 3rem;
 }
 
 #title_scaleW {
@@ -171,7 +170,7 @@ html {
 
 .hero__image img {
   max-width: 100%;
-  object-fit: cover;
+  width: 480px;
 }
 
 .display-table {
@@ -183,10 +182,6 @@ html {
 .table-cell {
   display: table-cell;
   vertical-align: middle;
-}
-
-.scale__hero-image {
-  width: 45%;
 }
 
 img {
@@ -221,9 +216,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 2rem;
-  width: 100%;
-  padding: 0 4rem;
+  padding: 0 0 8rem 0;
 }
 
 .hero .hero__content {
@@ -237,7 +230,7 @@ img {
 
 .btdown {
   position: absolute;
-  bottom: 8%;
+  bottom: 5%;
 }
 
 .arrow-down span {
@@ -533,7 +526,7 @@ img {
 }
 
 .promos-content {
-  width: 38%;
+  width: 30%;
 }
 
 .swiper-slide {
@@ -544,12 +537,18 @@ img {
 .promos-content img {
   width: 100%;
   border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   object-fit: cover;
   transition: 0.5s;
 }
 
-.promos-content img:hover {
-  transform: scale(1.1);
+.promos-content p{
+  font-size: 2rem;
+  font-family: var(--font-family-paragraphs);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
 .size_promo {
@@ -652,14 +651,6 @@ img {
 .model-list i {
   padding-right: 5px;
   color: #1dc9a0;
-}
-
-#super-icon {
-  color: var(--orange);
-}
-
-#plus-icon {
-  color: var(--blue);
 }
 
 .models-warning {
